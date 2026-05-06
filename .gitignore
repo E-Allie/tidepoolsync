@@ -1,0 +1,17 @@
+/target
+/flake.nix
+/flake.lock
+/tidepoolsync.config.json
+*.config.json
+!/tidepoolsync.config.example.json
+!*.config.example.json
+/.tidepoolsync_state.json
+*_session.json
+*tidepool_state.json
+*.state.json
+*.dump.json
+*.package.json
+*.tmp
+.DS_Store
+.direnv/
+**/*.swp

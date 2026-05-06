@@ -1,0 +1,20 @@
+{
+  "tidepool": {
+    "username": "you@example.com",
+    "password": "REPLACE_ME",
+    "patient_uuid": "00000000-0000-0000-0000-000000000000",
+    "base_url": "https://api.tidepool.org"
+  },
+  "nightscout": {
+    "website": "http://127.0.0.1:1337/",
+    "permission_role": "tidepoolsync-xxxxxxxx",
+    "timezone": "America/New_York",
+    "glucose_unit": "mg/dl",
+    "carbs_hr": 20,
+    "delay": 20
+  },
+  "sync": {
+    //Optional
+    "watermark_path": "/home/you/.local/state/tidepoolsync/state.json"
+  }
+}
